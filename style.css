@@ -1,0 +1,302 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section{
+    padding-bottom: 150px;
+}
+
+.pink-highlight{
+    color: #EC4C7A;
+}
+
+
+
+
+
+
+/************ Hello Section Start ************/
+
+.hellow {
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    height: 570px;
+    background-size: cover;
+    clear: both;
+}
+
+.half-width {
+        width: 40%;
+        margin: 5% 2%;
+        padding: 8% 2%;
+        float: left;
+}
+
+.name {
+    margin-top: 100px;
+    margin-left: 45px;
+}
+
+.half-width h3{
+    font-size: 35px;
+}
+
+.half-width h1{
+    font-size: 45px;
+    margin-top: -20px;
+}
+
+.half-width p{
+    color: grey;
+    margin-bottom: 45px;
+}
+
+.half-width img{
+    width: 100%;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: #EC4C7A;
+    padding: 12px 25px;
+    color: white;
+    border-radius: 3px;
+    font-size: 13px;
+    transition: .5s;;
+}
+
+.btn:hover{
+    background-color: #fc326b;
+    padding: 15px 30px; 
+    font-size: 15px;
+}
+
+/************ Hello Section End ************/
+
+
+
+
+
+
+/************ Biography Section Start ************/
+
+.biography {
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    height: 635px;
+    background-size: cover;
+}
+
+
+/************ Biography Section End ************/
+
+
+
+
+
+/************ Skill Section Start ************/
+.skill{
+    clear: both;
+    background-color:white;
+    color:  #6F77F4;
+}
+
+.skill-left{
+    width: 40%;
+    float: left;
+    background-image: url("images/Contact-Us-Pic-Page.png");
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-top: 150px
+}
+
+.skill-left img{
+
+}
+
+.skill-right {
+    width: 49%;
+    overflow: hidden;
+    padding-top: 132px;
+    padding-left: 110px;
+}
+
+.skill-right h5{
+    font-size: 20px;
+}
+
+.skill-right h1{
+    font-size: 60px;
+    margin-top: -20px;
+    margin-bottom: -5px;
+
+}
+
+.singel_skill{
+    width: 25%;
+    float: left;
+    margin-left: 15px;
+}
+
+.singel_skill:first-child{
+    margin-left: 0px;
+}
+.singel_skill p{
+    padding-bottom: 50px;
+    color: #dad3d3;
+}
+
+.singel_skill h3{
+    font-size: 30px;
+}
+
+.skill-btn{
+    text-decoration: none;
+    color: white;
+    background-color: #A1A7FF;
+    padding: 12px 15px;
+    border-radius: 5px;
+    display: block;
+    transition: .5s;
+}
+.skill-btn:hover{
+    background-color: #6F77F4;
+    border: 1px solid #A1A7FF;
+}
+
+
+
+/************ Skill Section End ************/
+
+
+
+
+/************ Project Section Start ************/
+
+.project{
+    background-color: #FF6666;
+    color: white;
+    text-align: center;
+}
+
+.project h4{
+    font-size: 35px;
+    padding-top: 50px;
+}
+
+.project h1 {
+    font-size: 160px;
+    margin-top: -30px;
+    margin-bottom: 0px;
+    border-bottom: 13px double white;
+    width: 730px;
+    margin: auto;
+}
+
+.work {
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+
+}
+
+.work h3{
+    font-size: 35px;
+    text-align: center;
+}
+
+.singel-work {
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+    padding-top: 158px;
+}
+
+.singel-work img{
+    width: 100%;
+}
+
+
+/************ Project Section End ************/
+
+
+
+
+
+
+/************ Clients Section Start ************/
+
+.client_area {
+    text-align: center;
+    padding: 200px 0px;
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.client{
+
+}
+
+.client h2 {
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+.client h5 {
+    font-size: 25px;
+    margin-bottom: -25px;
+}
+
+.client h6 {
+    font-size: 18px;
+    color: grey;
+}
+
+.client p {
+    margin: 83px auto;
+    width: 500px;
+    font-size: 23px;
+    color: rgb(83, 79, 79);
+}
+
+.mail {
+    background: #EC4E8D;
+    border-radius: 10px;
+    width: 500px;
+    padding: 20px 20px;
+    color: white;
+    margin: auto;
+    transition: .7s;
+}
+
+.mail:hover{
+    background-color: hotpink;
+    
+}
+
+
+/************ Clients Section End ************/
+
+
+
+
+/************ Footer Section Start ************/
+
+footer p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: grey;
+    padding-bottom: 10px;
+}
+
+
+/************ Footer Section End ************/
